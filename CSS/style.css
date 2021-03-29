@@ -4,13 +4,43 @@ body {
 }
 header{
     background-color:#ff4646;
-    height: 170px;
-   
-
+     
+}
+header nav h1 {
+    color: #f4f4f4;
+}
+header nav{
+    display: flex;
+}
+header nav ul {
+    float: right;
+}
+nav ul li{
+    margin-right: 10px;
+    display: inline-block;
+    
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
 }
 footer{
     background-color: #f8e4b7;
+    display: flex;
 }
-#menu{
-    float: right;
+footer h4 ,a{    
+    vertical-align: middle;
+    margin-right: 20px;
+}
+footer p{
+    display: inline;
+    
+}
+main h2{
+    text-align: center;
+}
+main div{
+    display: inline-block;
+    margin-left: 10%;
 }
